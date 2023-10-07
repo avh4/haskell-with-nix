@@ -17,8 +17,4 @@ if __name__ == "__main__":
     run_cabal2nix(".", "{{ cookiecutter.project_name }}.nix")
     run_cabal2nix("Shakefile", "default.nix")
 
-    subprocess.run(["git", "init"])
-    subprocess.run(["git", "add", "."])
-
     subprocess.run(["nix-shell", "--run", "./dev/build.sh all"])
-    subprocess.run(["git", "add", "cabal.project.freeze"])
