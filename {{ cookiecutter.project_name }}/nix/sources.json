@@ -1,0 +1,38 @@
+{
+    "gitignore.nix": {
+        "branch": "master",
+        "description": "Nix functions for filtering local git sources",
+        "homepage": "",
+        "owner": "hercules-ci",
+        "repo": "gitignore.nix",
+        "rev": "9e21c80adf67ebcb077d75bd5e7d724d21eeafd6",
+        "sha256": "1lbkgn94y8850g7idqnbji12pscxjwrspnzmx8fmm7xmy9ablk5y",
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore.nix/archive/9e21c80adf67ebcb077d75bd5e7d724d21eeafd6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3954218cf613eba8e0dcefa9abe337d26bc48fd0",
+        "sha256": "0bagqy53mknghz112swzb7zyjc07kfvam2wmc919bq0jxv8vj2i6",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/3954218cf613eba8e0dcefa9abe337d26bc48fd0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-taskell": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "844ffa82bbe2a2779c86ab3a72ff1b4176cec467",
+        "sha256": "0csxb4a36sw41disxwn43csaxghnd2j5qlg1phvndbv3w2s5qv8g",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/844ffa82bbe2a2779c86ab3a72ff1b4176cec467.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

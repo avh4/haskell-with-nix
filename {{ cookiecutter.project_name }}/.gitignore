@@ -1,0 +1,15 @@
+# Generated files
+/Shakefile/build.cabal
+/{{ cookiecutter.project_name }}.cabal
+
+# Rendered documentation
+*.md.html
+*.plantuml.png
+/dev/Documentation/Module dependencies.png
+
+# Build products
+/_build/
+/.direnv/
+/dist-newstyle/
+/result
+/.shake/

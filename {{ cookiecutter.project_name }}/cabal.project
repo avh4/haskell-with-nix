@@ -1,0 +1,4 @@
+packages:
+    ./
+    ./Shakefile
+with-compiler: ghc-9.2.5
