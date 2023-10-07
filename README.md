@@ -34,6 +34,7 @@ Encouraged tech stack:
 nix-shell -p cookiecutter --run "cookiecutter https://github.com/avh4/haskell-with-nix.git"
 # cd into the new folder
 direnv allow
+dev/build.sh cabal.project.freeze
 git init
 git add .
 git commit -m "Initialize from template"
